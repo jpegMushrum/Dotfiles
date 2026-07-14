@@ -34,6 +34,6 @@ fi
 rm -rf "$CONFIG_DIR"
 mv "$TEMP_DIR" "$CONFIG_DIR"
 
-exec tide configure
+rm install.sh
 
 echo "Готово"
