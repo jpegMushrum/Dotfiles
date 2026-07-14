@@ -5,4 +5,5 @@ if status is-interactive
     alias rgrep='ripgrep'
     alias yz='yazi'
     export EDITOR='nvim'
+    alias c="clear"
 end
