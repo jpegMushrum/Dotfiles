@@ -34,6 +34,4 @@ fi
 rm -rf "$CONFIG_DIR"
 mv "$TEMP_DIR" "$CONFIG_DIR"
 
-rm install.sh
-
 echo "Готово"
