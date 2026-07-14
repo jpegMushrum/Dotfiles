@@ -1,0 +1,50 @@
+* {
+    font-family: JetBrainsMono Nerd Font;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+    transition: none;
+}
+
+window {
+    background: rgba(11, 20, 16, 0.88);
+}
+
+button {
+    all: unset;
+
+    background-color: rgba(26, 51, 40, 0.92);
+    color: rgba(217, 216, 216, 0.85);
+
+    border: 2px solid rgba(47, 122, 90, 1);
+    border-radius: 18px;
+	padding-bottom: 80px;
+    min-width: 120px;
+    min-height: 120px;
+
+    margin: 14px;
+}
+
+button:hover {
+    background-color: rgba(27, 58, 46, 0.96);
+    border-color: #9E9E66;
+    color: #D7E3DC;
+}
+
+button:focus {
+    background-color: rgba(27, 58, 46, 1);
+    border-color: #D7E3DC;
+}
+
+/* иконки */
+
+button label {
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 72px;
+    font-weight: bold;
+    color: inherit;
+
+    margin: 0;
+    padding: 0;
+}
+

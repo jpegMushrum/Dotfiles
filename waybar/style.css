@@ -1,0 +1,180 @@
+* {
+    border:        none;
+    border-radius: 0;
+    font-family:   JetBrainsMono Nerd Font;
+    font-size:     16px;
+    font-weight:     bold;
+    box-shadow:    none;
+    text-shadow:   none;
+    transition-duration: 0s;
+}
+
+window {
+    color:      rgba(217, 216, 216, 1);
+    background: rgba(11, 20, 16, 0.7);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+#workspaces {
+    border-radius: 20px;
+    background: #1A3328;
+    transition: none;
+	margin-bottom: 5px;
+}
+
+#workspaces button {
+    transition: none;
+    color:      rgba(217, 216, 216, 0.4);
+    padding-left: 10px;
+    padding-right: 10px;
+    background: transparent;
+}
+
+#workspaces button.visible {
+    color:      rgba(217, 216, 216, 1);
+}
+
+#workspaces button.focused {
+    color: #D7E3DC;
+}
+
+#workspaces button:hover {
+    box-shadow: inherit;
+    text-shadow: inherit;
+    color: #9FB3A8;
+}
+
+#workspaces button.urgent {
+    color:      rgba(238, 46, 36, 1);
+}
+
+#mode, #battery, #tray, #cpu, #memory, #enternet-vpn, #pulseaudio {
+    margin:     0px 6px 0px 6px;
+    min-width:  25px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+#network, #custom-vpn {
+    color:      rgba(217, 216, 216, 1);
+    padding-top: 1px;
+}
+
+#custom-vpn {
+	margin-left: 3px;
+}
+
+menu, .menu, .context-menu {
+    font-size: 12px;   
+    font-weight: normal;
+    background: inherit;
+    color: inherit;
+    background-clip: padding-box;
+    border-radius: 6px;
+}
+
+#clock {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    transition: none;
+    color: #CAFACA;
+    background: #1B3A2E;
+}
+
+#custom-notif {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    transition: none;
+    color: #1d1d1d;
+    background: rgb(238,130,238);
+}
+
+#battery.warning {
+    color:       rgba(255, 210, 4, 1);
+}
+
+#battery.critical {
+    color:      rgba(238, 46, 36, 1);
+}
+
+#battery.charging {
+    color:      rgba(217, 216, 216, 1);
+}
+
+#pulseaudio {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 3px;
+    padding-right: 6px;
+    border-radius: 20px;
+    transition: none;
+    color: #1d1d1d;
+	background: rgba(189, 183, 107, 0.85);
+}
+
+#cpu {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 10px;
+    padding-right: 6px;
+    border-radius: 20px;
+    transition: none;
+    color: #1d1d1d;
+    background: rgba(225, 92, 92, 0.9);
+}
+
+#battery {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    transition: none;
+    color: #1d1d1d;
+    background: rgba(176, 196, 222, 0.85);
+}
+
+#memory {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 10px;
+    padding-right: 14px;
+    border-radius: 20px;
+    transition: none;
+    color: #1d1d1d;
+    background: rgba(222, 184, 135, 0.85);
+}
+
+#tray {
+    min-width: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    transition: none;
+    color: #E3F0EA;
+    background: #2F7A5A;
+}
+
+#custom-power {
+	padding-right: 10px;
+	min-width: 20px;
+	color: #E3F0EA;
+}
+
+#enternet-vpn {
+	background: #4e8f8f;
+    border-radius: 20px;
+    padding: 0px 5px;
+	padding-left: 10px;
+}

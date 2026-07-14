@@ -1,0 +1,45 @@
+# ~/.config/mako/config
+
+font=JetBrainsMono Nerd Font 12
+background-color=#0B1410CC
+text-color=#D9D8D8
+border-color=#2F7A5A
+progress-color=#1B3A2E
+
+border-size=2
+border-radius=8
+padding=14
+margin=12
+width=700
+height=120
+
+default-timeout=4000
+ignore-timeout=0
+
+anchor=top-center
+layer=overlay
+
+icons=1
+markup=1
+actions=1
+max-visible=5
+sort=-time
+
+# app name
+format=<b>%s</b>\n%b
+
+[urgency=low]
+border-color=#1A3328
+background-color=#0B1410CC
+text-color=#A8C4B8
+
+[urgency=normal]
+border-color=#2F7A5A
+background-color=#112019E6
+text-color=#D9D8D8
+
+[urgency=high]
+border-color=#BDB76B
+background-color=#1B2118F0
+text-color=#F5F0D0
+default-timeout=0

@@ -1,0 +1,43 @@
+{
+    "BLE MIDI 1": {
+        "pos": {
+            "x": 372.0,
+            "y": 50.0
+        },
+        "is_split": false,
+        "::is_folded": false
+    },
+    "Midi-Bridge": {
+        "pos": {
+            "x": 372.0,
+            "y": 144.0
+        },
+        "is_split": false,
+        "::is_folded": false
+    },
+    "Ryzen HD Audio Controller \u0410\u043d\u0430\u043b\u043e\u0433\u043e\u0432\u044b\u0439 \u0441\u0442\u0435\u0440\u0435\u043e": {
+        "pos": {
+            "x": 50.0,
+            "y": 278.0
+        },
+        "is_split": false,
+        "::is_folded": false
+    },
+    "fifine Headset \u0410\u043d\u0430\u043b\u043e\u0433\u043e\u0432\u044b\u0439 \u0441\u0442\u0435\u0440\u0435\u043e": {
+        "pos": {
+            "x": 50.0,
+            "y": 50.0
+        },
+        "is_split": false,
+        "::is_folded": false
+    },
+    "fifine Headset \u041c\u043e\u043d\u043e": {
+        "pos": {
+            "x": 50.0,
+            "y": 184.0
+        },
+        "is_split": false,
+        "::is_folded": false
+    },
+    "::graph_zoom_level": 1.0
+}

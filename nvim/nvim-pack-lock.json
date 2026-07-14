@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "markview.nvim": {
+      "rev": "dbf74b6db11c1468d5128a38b26b6d99dc7316e9",
+      "src": "https://github.com/OXY2DEV/markview.nvim"
+    }
+  }
+}

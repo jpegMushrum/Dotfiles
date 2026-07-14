@@ -1,0 +1,19 @@
+[manager]
+cwd = { fg = "#B4B471" }
+
+[filetype]
+rules = [
+  { mime = "inode/directory", fg = "#B4B471" }
+]
+
+[status]
+separator_open  = ""
+separator_close = ""
+
+progress_label = { fg = "#121C17", bg = "#B4B471" }
+progress_normal = { fg = "#B4B471" }
+progress_error = { fg = "#C97A7A" }
+
+[tab]
+active   = { fg = "#121C17", bg = "#B4B471" }
+inactive = { fg = "#97AEA2", bg = "#18251F" }
