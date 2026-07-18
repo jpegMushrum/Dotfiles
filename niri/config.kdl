@@ -268,18 +268,7 @@ layout {
 
 // =========== Startup block ==========
 
-// This line starts waybar, a commonly used bar for Wayland compositors.
-spawn-at-startup "waybar"
-
-// This line setups idle checker for suspending system if afk 
-spawn-at-startup "swayidle" "-w" \
-    "timeout" "300" "swaylock -f" \
-    "timeout" "360" "systemctl suspend" \
-    "before-sleep" "swaylock -f"
-
-// This line starts wallpaper daemon
-spawn-at-startup "awww-daemon"
-spawn-at-startup "awww-restore"
+spawn-at-startup "env" "QT_QPA_PLATFORMTHEME=gtk3" "qs" "-c" "noctalia-shell"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
@@ -374,8 +363,8 @@ binds {
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
-    Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
-    Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
+    Mod+D hotkey-overlay-title="Run an Application: launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
+    Super+Alt+L hotkey-overlay-title="Lock the Screen" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument. It's passed verbatim to `sh -c`.
@@ -566,8 +555,6 @@ binds {
     // Cycling through the presets in reverse order is also possible.
     Mod+Shift+R { switch-preset-column-width-back; }
     
-    // Reload waybar
-    Mod+W hotkey-overlay-title="Reload Waybar" { spawn "~/.config/waybar/scripts/reload.sh"; }
 
     Mod+Ctrl+Shift+R { switch-preset-window-height; }
     Mod+Ctrl+R { reset-window-height; }
