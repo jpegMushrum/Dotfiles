@@ -8,6 +8,10 @@ I don't use quick shell, I don't know what happen if this config being applied t
 > Script makes a copy of your current .config, but be carefull, because unexpected
 > things can happen.
 
+## Screenshots
+
+![desktop_screenshot](./pictures/Screenshot1.png)
+
 ## Installation
 
 ### Linux
